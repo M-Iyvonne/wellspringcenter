@@ -1,59 +1,65 @@
 body {  
 	background-color: #F3EEC8;
+	font-family: 'Artifika', serif;
+	
+
 }
+#colorNav {
+	font-size: 24px;
+	background-color: #F3EEC8;
+	border-bottom: 4px solid rgb(56, 76, 19);
+
+}
+#nav-bar  a {
+	color: #33603C;
+	text-decoration: none;
+}
+
+/*trying to get my nav style to work*/
+.navbar-custom{
+	
+}
+/*1st containter*/
 
 #forest { 
 	background-image: url(../images/forest.jpg);
 	background-size: cover;
+	padding-top: 10em;
+	padding-bottom: 5em;
 	border-top: 4px solid rgb(56, 76, 19);
 	border-bottom: 4px solid rgb(56, 76, 19);
 }
-#colorNav {
-	background-color: #F3EEC8;
-	color:#33603C;
-	font-size: 24px;
-	overflow: hidden;
-	/*border-bottom: 4px solid rgb(56, 76, 19);*/
-}
-#colorNav a {
-	color: #33603C;
-}
+
 
 #infoBox {
 	background-color: #F3EEC8;
 	border: 4px solid rgb(56, 76, 19);
-	margin: 8em;
-	overflow:hidden;
-	width:45%;
+	width:65%;
 	opacity: .8;
 	}
+#email {
+	background-color: rgba(72, 94, 42, .7);
+	color: #F3EEC8;
+	padding: 5px 20px;
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 768px){
+	#infoBox {
+		width: 95%;
+		padding:1em;
+
+	}
+}
 #typeServices {
-	font-size: 45px;
-	padding: 3rem;
+	
+	padding-bottom: 1em;
+
 
 }
 #serviceLists{
-	padding: 3rem;
-	border-bottom: 2px solid rgb(56, 76, 19);
-	border-top: 2px solid rgb(56, 76, 19);
-	padding-bottom: 2em;
-	margin-bottom: 3em;
-}
-/*Meet Our Family*/
-
-#bg-green {
-	background:url(../images/bgGreen.png);
-	background-size: cover;
-}
-#ourFamily {
-
-	padding-top: 4rem;
-	color: #F3EEC8;
-}
-.thumbnail {
-	background-color: #F3EEC8;
-	border: 2px solid darkgreen;
-	padding:2rem 0;
+	border-top: 2px solid rgb(155,165,137);
+	padding: 1em;
 }
 /* Featurettes
 ------------------------- */
@@ -71,7 +77,7 @@ body {
 }
 /*footer*/
 #ft-bgColor {
-	background-color: rgb(104, 130, 55);
+	background:url(../images/bgGreen.png);
 	border-bottom: 3px solid rgb(56, 76, 19);
 	border-top: 3px solid rgb(56, 76, 19);
 	padding: 3rem;
@@ -81,20 +87,94 @@ body {
 	font-size: 18px;
 	/*border-right: 2px solid rgb(155,165,137);*/
 	color: #F3EEC8;
+	background-color: rgba(72, 94, 42, .6);
+	border: 2px solid rgb(56, 76, 19);
+	margin: 15px;
+	padding:1em;
+	height: 300px;
 }
 #color strong {
 	font-size: 24px;
 }
-#email {
-	background-color: rgb(68, 130, 55);
+#color img {
+
+	padding:1rem;
+
+}
+
+
+/*start of Meet the Family*/
+#bg-green {
+	background:url(../images/bgGreen.png);
+	background-size: cover;
+
+}
+#ourFamily {
+
+	padding-top: 4rem;
 	color: #F3EEC8;
-	padding:  1em 2em;
-	border-radius: 1em;
 }
-#serviceLists {
+.thumbnail {
+	background-color: #F3EEC8;
+	opacity: .9;
+	border: 2px solid darkgreen;
+	padding:2rem 0;
+}
 
+/*Meet our Family Full page*/
+
+#meetUs {
+	padding: 3em;
+	border-bottom: 1px solid darkgreen;
+	
+
+}
+#pictUs {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	
+}
+
+#equal {
+	height: 35%;
+	border: 4px solid rgb(101,125,46);
+	background-color: #F3EEC8;
+	margin-top: 3rem;
+}
+
+#gradient {
+	background-image: url(../images/theLight.jpg);
+	background-size: cover;
 
 }
 
+#meetUs h4 {
+	margin-bottom: 3em;
 
+}
 
+#meetFoot {
+	margin-top: 7rem;
+	background-color: #F3EEC8;
+	border-top: 4px solid rgb(101, 125, 45);
+}
+
+#color2 {
+	font-size: 18px;
+
+	/*border-right: 2px solid rgb(155,165,137);*/
+	color: #F3EEC8;
+	background-color: rgba(101,125,46, .7);
+	border: 2px solid rgb(56, 76, 19);
+	margin: 15px;
+	padding:1em;
+	height: 300px;
+}
+#color2 strong {
+	font-size: 24px;
+}
+#color2 img {
+
+	padding:1rem;
+
+}
