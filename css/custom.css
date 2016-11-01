@@ -1,0 +1,100 @@
+body {  
+	background-color: #F3EEC8;
+}
+
+#forest { 
+	background-image: url(../images/forest.jpg);
+	background-size: cover;
+	border-top: 4px solid rgb(56, 76, 19);
+	border-bottom: 4px solid rgb(56, 76, 19);
+}
+#colorNav {
+	background-color: #F3EEC8;
+	color:#33603C;
+	font-size: 24px;
+	overflow: hidden;
+	/*border-bottom: 4px solid rgb(56, 76, 19);*/
+}
+#colorNav a {
+	color: #33603C;
+}
+
+#infoBox {
+	background-color: #F3EEC8;
+	border: 4px solid rgb(56, 76, 19);
+	margin: 8em;
+	overflow:hidden;
+	width:45%;
+	opacity: .8;
+	}
+#typeServices {
+	font-size: 45px;
+	padding: 3rem;
+
+}
+#serviceLists{
+	padding: 3rem;
+	border-bottom: 2px solid rgb(56, 76, 19);
+	border-top: 2px solid rgb(56, 76, 19);
+	padding-bottom: 2em;
+	margin-bottom: 3em;
+}
+/*Meet Our Family*/
+
+#bg-green {
+	background:url(../images/bgGreen.png);
+	background-size: cover;
+}
+#ourFamily {
+
+	padding-top: 4rem;
+	color: #F3EEC8;
+}
+.thumbnail {
+	background-color: #F3EEC8;
+	border: 2px solid darkgreen;
+	padding:2rem 0;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  border-top: 2px solid rgb(155,165,137);
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+/*footer*/
+#ft-bgColor {
+	background-color: rgb(104, 130, 55);
+	border-bottom: 3px solid rgb(56, 76, 19);
+	border-top: 3px solid rgb(56, 76, 19);
+	padding: 3rem;
+}
+
+#color {
+	font-size: 18px;
+	/*border-right: 2px solid rgb(155,165,137);*/
+	color: #F3EEC8;
+}
+#color strong {
+	font-size: 24px;
+}
+#email {
+	background-color: rgb(68, 130, 55);
+	color: #F3EEC8;
+	padding:  1em 2em;
+	border-radius: 1em;
+}
+#serviceLists {
+
+
+}
+
+
+
