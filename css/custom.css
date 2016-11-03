@@ -4,7 +4,7 @@ body {
 	
 
 }
-#colorNav {
+#colorNav { 
 	font-size: 24px;
 	background-color: #F3EEC8;
 	border-bottom: 4px solid rgb(56, 76, 19);
@@ -120,6 +120,10 @@ body {
 	border: 2px solid darkgreen;
 	padding:2rem 0;
 }
+/*.thumbnail img {
+	margin-left: 2rem;
+
+}*/
 
 /*Meet our Family Full page*/
 
